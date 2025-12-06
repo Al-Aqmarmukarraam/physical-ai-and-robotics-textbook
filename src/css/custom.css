@@ -1,0 +1,91 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for the Physical AI & Humanoid Robotics textbook */
+
+/* Additional custom styles for textbook-specific elements */
+.lesson-intro {
+  background-color: #f8f9fa;
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.lesson-core-concept {
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.lesson-example {
+  background-color: #d1ecf1;
+  border-left: 4px solid #17a2b8;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.lesson-takeaway {
+  background-color: #d4edda;
+  border-left: 4px solid #28a745;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.lesson-takeaway ul {
+  margin-bottom: 0;
+}
+
+/* Improve readability for textbook content */
+.markdown h1, .markdown h2, .markdown h3 {
+  font-weight: 600;
+}
+
+.markdown p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Custom styling for code blocks in textbook context */
+.prism-code {
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments for textbook layout */
+@media (max-width: 996px) {
+  .lesson-intro,
+  .lesson-core-concept,
+  .lesson-example,
+  .lesson-takeaway {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

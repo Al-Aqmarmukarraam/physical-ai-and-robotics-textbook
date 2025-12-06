@@ -1,0 +1,202 @@
+# API Contract: RAG Query Service
+
+## Overview
+This document defines the API contract for the RAG (Retrieval Augmented Generation) query service that will be integrated with the Physical AI & Humanoid Robotics textbook.
+
+## Base URL
+```
+https://[hostname]/api
+```
+
+## Endpoints
+
+### 1. Query Endpoint
+Submit a query to the RAG system and receive a response based on textbook content.
+
+**Endpoint**: `POST /query`
+
+**Request**:
+```json
+{
+  "query": "What is Physical AI and how does it differ from traditional AI?",
+  "context": {
+    "userId": "optional-user-id",
+    "sessionId": "optional-session-id",
+    "chapterId": "optional-chapter-context",
+    "lessonId": "optional-lesson-context"
+  },
+  "options": {
+    "maxResults": 5,
+    "includeMetadata": true
+  }
+}
+```
+
+**Response**:
+```json
+{
+  "id": "unique-query-id",
+  "query": "What is Physical AI and how does it differ from traditional AI?",
+  "answer": "Physical AI refers to AI systems that interact with the physical world through sensors and actuators, as opposed to traditional AI which primarily processes digital information. Physical AI systems include robots, autonomous vehicles, and other devices that can perceive and act in physical environments.",
+  "sources": [
+    {
+      "lessonId": "lesson-1.1-what-is-physical-ai",
+      "lessonTitle": "What is Physical AI?",
+      "chapterId": "introduction",
+      "chapterTitle": "Introduction to Physical AI",
+      "relevanceScore": 0.95,
+      "textExcerpt": "Physical AI refers to AI systems that interact with the physical world through sensors and actuators..."
+    }
+  ],
+  "metadata": {
+    "queryTime": "2023-12-06T10:30:00Z",
+    "processingTimeMs": 150
+  }
+}
+```
+
+**Errors**:
+- `400 Bad Request`: Invalid query format
+- `429 Too Many Requests`: Rate limit exceeded
+- `500 Internal Server Error`: Processing error
+
+### 2. Health Check Endpoint
+Check the health status of the RAG service.
+
+**Endpoint**: `GET /health`
+
+**Response**:
+```json
+{
+  "status": "healthy",
+  "timestamp": "2023-12-06T10:30:00Z",
+  "version": "1.0.0",
+  "dependencies": {
+    "vectorStore": "connected",
+    "textbookContent": "available"
+  }
+}
+```
+
+### 3. Content Search Endpoint
+Search across textbook content with relevance ranking.
+
+**Endpoint**: `POST /search`
+
+**Request**:
+```json
+{
+  "query": "ROS 2 fundamentals",
+  "filters": {
+    "chapterIds": ["ros2-fundamentals"],
+    "tags": ["beginner", "tutorial"],
+    "difficulty": ["beginner", "intermediate"]
+  },
+  "options": {
+    "maxResults": 10,
+    "includeContent": false
+  }
+}
+```
+
+**Response**:
+```json
+{
+  "query": "ROS 2 fundamentals",
+  "results": [
+    {
+      "id": "lesson-3.1-introduction-ros2",
+      "title": "Introduction to ROS 2",
+      "chapterId": "ros2-fundamentals",
+      "chapterTitle": "ROS 2 Fundamentals",
+      "relevanceScore": 0.98,
+      "url": "/docs/ros2-fundamentals/lesson-3.1-introduction-ros2",
+      "content": "Brief content excerpt if includeContent=true",
+      "metadata": {
+        "tags": ["beginner", "introduction", "ros2"],
+        "difficulty": "beginner",
+        "estimatedReadingTime": 5
+      }
+    }
+  ],
+  "totalResults": 1
+}
+```
+
+### 4. Content Chunk Retrieval Endpoint
+Retrieve specific content chunks for a given lesson (used for RAG context).
+
+**Endpoint**: `GET /chunks/{lessonId}`
+
+**Response**:
+```json
+{
+  "lessonId": "lesson-1.1-what-is-physical-ai",
+  "chunks": [
+    {
+      "id": "chunk-1.1.1",
+      "content": "Physical AI refers to AI systems that interact with the physical world through sensors and actuators, as opposed to traditional AI which primarily processes digital information.",
+      "type": "core-concept",
+      "position": 1,
+      "metadata": {
+        "section": "definition",
+        "difficulty": "beginner"
+      }
+    },
+    {
+      "id": "chunk-1.1.2",
+      "content": "The key components of a Physical AI system include sensors for perception, actuators for action, control systems for coordination, and AI models for decision making.",
+      "type": "core-concept",
+      "position": 2,
+      "metadata": {
+        "section": "components",
+        "difficulty": "beginner"
+      }
+    }
+  ]
+}
+```
+
+## Authentication
+All endpoints (except health check) require an API key in the header:
+```
+Authorization: Bearer {api-key}
+```
+
+## Rate Limiting
+- Queries: 100 per hour per API key
+- Concurrent requests: 5 per API key
+
+## Error Format
+All errors follow this format:
+```json
+{
+  "error": {
+    "code": "ERROR_CODE",
+    "message": "Human-readable error message",
+    "details": "Additional error details if applicable"
+  }
+}
+```
+
+## Data Types
+
+### Query Object
+- `query`: Non-empty string, max 1000 characters
+- `context`: Optional object with user/session context
+- `options`: Optional object with query options
+
+### Content Chunk Object
+- `id`: Unique identifier (string)
+- `content`: Text content (string, max 1000 characters)
+- `type`: One of "introduction", "core-concept", "example", "takeaway"
+- `position`: Sequential position in lesson (integer)
+- `metadata`: Additional metadata object
+
+### Source Object
+- `lessonId`: ID of source lesson (string)
+- `lessonTitle`: Title of source lesson (string)
+- `chapterId`: ID of source chapter (string)
+- `chapterTitle`: Title of source chapter (string)
+- `relevanceScore`: Score between 0 and 1 (number)
+- `textExcerpt`: Excerpt from the source (string)
