@@ -1,0 +1,54 @@
+{
+  "id": "humanoid-robotics/lesson-2.1-anatomy-humanoid",
+  "title": "Anatomy of a Humanoid Robot",
+  "description": "Key structural components, joints, and degrees of freedom.",
+  "source": "@site/docs/humanoid-robotics/lesson-2.1-anatomy-humanoid.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/lesson-2.1-anatomy-humanoid",
+  "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/humanoid-robotics/lesson-2.1-anatomy-humanoid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book/edit/main/docs/docs/humanoid-robotics/lesson-2.1-anatomy-humanoid.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "humanoid",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/humanoid"
+    },
+    {
+      "inline": true,
+      "label": "anatomy",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/anatomy"
+    },
+    {
+      "inline": true,
+      "label": "joints",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/joints"
+    },
+    {
+      "inline": true,
+      "label": "degrees-of-freedom",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/degrees-of-freedom"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Anatomy of a Humanoid Robot",
+    "description": "Key structural components, joints, and degrees of freedom.",
+    "tags": [
+      "humanoid",
+      "anatomy",
+      "joints",
+      "degrees-of-freedom"
+    ]
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Core Components of a Physical AI System",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/introduction/lesson-1.3-components-physical-ai"
+  },
+  "next": {
+    "title": "Kinematics and Dynamics for Humanoids",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/humanoid-robotics/lesson-2.2-kinematics-dynamics"
+  }
+}

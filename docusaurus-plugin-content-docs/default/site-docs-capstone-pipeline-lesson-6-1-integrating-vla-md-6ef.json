@@ -1,0 +1,60 @@
+{
+  "id": "capstone-pipeline/lesson-6.1-integrating-vla",
+  "title": "Integrating Perception, Language, and Action",
+  "description": "Bringing together concepts from previous chapters into a coherent system.",
+  "source": "@site/docs/capstone-pipeline/lesson-6.1-integrating-vla.md",
+  "sourceDirName": "capstone-pipeline",
+  "slug": "/capstone-pipeline/lesson-6.1-integrating-vla",
+  "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/capstone-pipeline/lesson-6.1-integrating-vla",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book/edit/main/docs/docs/capstone-pipeline/lesson-6.1-integrating-vla.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "vla",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/vla"
+    },
+    {
+      "inline": true,
+      "label": "perception",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/perception"
+    },
+    {
+      "inline": true,
+      "label": "language",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/language"
+    },
+    {
+      "inline": true,
+      "label": "action",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/action"
+    },
+    {
+      "inline": true,
+      "label": "integration",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/integration"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Integrating Perception, Language, and Action",
+    "description": "Bringing together concepts from previous chapters into a coherent system.",
+    "tags": [
+      "vla",
+      "perception",
+      "language",
+      "action",
+      "integration"
+    ]
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Action Planning and Execution",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/vision-language-action/lesson-5.3-action-planning-execution"
+  },
+  "next": {
+    "title": "Building a Basic Task Automation Pipeline",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/capstone-pipeline/lesson-6.2-basic-task-automation"
+  }
+}

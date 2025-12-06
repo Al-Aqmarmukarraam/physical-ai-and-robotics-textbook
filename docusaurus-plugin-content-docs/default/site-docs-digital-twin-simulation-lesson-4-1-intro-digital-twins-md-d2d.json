@@ -1,0 +1,54 @@
+{
+  "id": "digital-twin-simulation/lesson-4.1-intro-digital-twins",
+  "title": "Introduction to Digital Twins in Robotics",
+  "description": "Concept of digital twins and their importance in robotics development.",
+  "source": "@site/docs/digital-twin-simulation/lesson-4.1-intro-digital-twins.md",
+  "sourceDirName": "digital-twin-simulation",
+  "slug": "/digital-twin-simulation/lesson-4.1-intro-digital-twins",
+  "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/digital-twin-simulation/lesson-4.1-intro-digital-twins",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book/edit/main/docs/docs/digital-twin-simulation/lesson-4.1-intro-digital-twins.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "digital-twin",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/digital-twin"
+    },
+    {
+      "inline": true,
+      "label": "simulation",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/simulation"
+    },
+    {
+      "inline": true,
+      "label": "robotics",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/robotics"
+    },
+    {
+      "inline": true,
+      "label": "development",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/development"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Introduction to Digital Twins in Robotics",
+    "description": "Concept of digital twins and their importance in robotics development.",
+    "tags": [
+      "digital-twin",
+      "simulation",
+      "robotics",
+      "development"
+    ]
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Building and Running Basic ROS 2 Packages",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/ros2-fundamentals/lesson-3.3-building-basic-packages"
+  },
+  "next": {
+    "title": "Gazebo for Robot Simulation",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/digital-twin-simulation/lesson-4.2-gazebo-simulation"
+  }
+}

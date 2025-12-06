@@ -1,0 +1,54 @@
+{
+  "id": "humanoid-robotics/lesson-2.2-kinematics-dynamics",
+  "title": "Kinematics and Dynamics for Humanoids",
+  "description": "Basic concepts of how robots move and the forces involved, simplified.",
+  "source": "@site/docs/humanoid-robotics/lesson-2.2-kinematics-dynamics.md",
+  "sourceDirName": "humanoid-robotics",
+  "slug": "/humanoid-robotics/lesson-2.2-kinematics-dynamics",
+  "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/humanoid-robotics/lesson-2.2-kinematics-dynamics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book/edit/main/docs/docs/humanoid-robotics/lesson-2.2-kinematics-dynamics.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "kinematics",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/kinematics"
+    },
+    {
+      "inline": true,
+      "label": "dynamics",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/dynamics"
+    },
+    {
+      "inline": true,
+      "label": "movement",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/movement"
+    },
+    {
+      "inline": true,
+      "label": "forces",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/forces"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Kinematics and Dynamics for Humanoids",
+    "description": "Basic concepts of how robots move and the forces involved, simplified.",
+    "tags": [
+      "kinematics",
+      "dynamics",
+      "movement",
+      "forces"
+    ]
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Anatomy of a Humanoid Robot",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/humanoid-robotics/lesson-2.1-anatomy-humanoid"
+  },
+  "next": {
+    "title": "Control Architectures in Humanoids",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/humanoid-robotics/lesson-2.3-control-architectures"
+  }
+}

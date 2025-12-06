@@ -1,0 +1,54 @@
+{
+  "id": "digital-twin-simulation/lesson-4.3-nvidia-isaac-sim",
+  "title": "NVIDIA Isaac Sim Overview",
+  "description": "Introduction to Isaac Sim for advanced, GPU-accelerated robotics simulation.",
+  "source": "@site/docs/digital-twin-simulation/lesson-4.3-nvidia-isaac-sim.md",
+  "sourceDirName": "digital-twin-simulation",
+  "slug": "/digital-twin-simulation/lesson-4.3-nvidia-isaac-sim",
+  "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/digital-twin-simulation/lesson-4.3-nvidia-isaac-sim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book/edit/main/docs/docs/digital-twin-simulation/lesson-4.3-nvidia-isaac-sim.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "isaac-sim",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/isaac-sim"
+    },
+    {
+      "inline": true,
+      "label": "gpu-acceleration",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/gpu-acceleration"
+    },
+    {
+      "inline": true,
+      "label": "advanced-simulation",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/advanced-simulation"
+    },
+    {
+      "inline": true,
+      "label": "nvidia",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/nvidia"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "NVIDIA Isaac Sim Overview",
+    "description": "Introduction to Isaac Sim for advanced, GPU-accelerated robotics simulation.",
+    "tags": [
+      "isaac-sim",
+      "gpu-acceleration",
+      "advanced-simulation",
+      "nvidia"
+    ]
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Gazebo for Robot Simulation",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/digital-twin-simulation/lesson-4.2-gazebo-simulation"
+  },
+  "next": {
+    "title": "Robot Vision Essentials",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/vision-language-action/lesson-5.1-robot-vision-essentials"
+  }
+}

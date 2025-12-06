@@ -1,0 +1,50 @@
+{
+  "id": "capstone-pipeline/lesson-6.3-testing-deployment",
+  "title": "Testing and Deployment Considerations",
+  "description": "Strategies for testing the integrated pipeline and deploying it to a robot or simulation.",
+  "source": "@site/docs/capstone-pipeline/lesson-6.3-testing-deployment.md",
+  "sourceDirName": "capstone-pipeline",
+  "slug": "/capstone-pipeline/lesson-6.3-testing-deployment",
+  "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/capstone-pipeline/lesson-6.3-testing-deployment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book/edit/main/docs/docs/capstone-pipeline/lesson-6.3-testing-deployment.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "testing",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/testing"
+    },
+    {
+      "inline": true,
+      "label": "deployment",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/deployment"
+    },
+    {
+      "inline": true,
+      "label": "validation",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/validation"
+    },
+    {
+      "inline": true,
+      "label": "robotics",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/robotics"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Testing and Deployment Considerations",
+    "description": "Strategies for testing the integrated pipeline and deploying it to a robot or simulation.",
+    "tags": [
+      "testing",
+      "deployment",
+      "validation",
+      "robotics"
+    ]
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Building a Basic Task Automation Pipeline",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/capstone-pipeline/lesson-6.2-basic-task-automation"
+  }
+}

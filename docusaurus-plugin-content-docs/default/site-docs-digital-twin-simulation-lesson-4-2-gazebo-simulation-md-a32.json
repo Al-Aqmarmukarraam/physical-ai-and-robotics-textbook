@@ -1,0 +1,54 @@
+{
+  "id": "digital-twin-simulation/lesson-4.2-gazebo-simulation",
+  "title": "Gazebo for Robot Simulation",
+  "description": "Using Gazebo for basic robot modeling and environmental simulation.",
+  "source": "@site/docs/digital-twin-simulation/lesson-4.2-gazebo-simulation.md",
+  "sourceDirName": "digital-twin-simulation",
+  "slug": "/digital-twin-simulation/lesson-4.2-gazebo-simulation",
+  "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/digital-twin-simulation/lesson-4.2-gazebo-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book/edit/main/docs/docs/digital-twin-simulation/lesson-4.2-gazebo-simulation.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "gazebo",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/gazebo"
+    },
+    {
+      "inline": true,
+      "label": "simulation",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/simulation"
+    },
+    {
+      "inline": true,
+      "label": "modeling",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/modeling"
+    },
+    {
+      "inline": true,
+      "label": "environment",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/environment"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Gazebo for Robot Simulation",
+    "description": "Using Gazebo for basic robot modeling and environmental simulation.",
+    "tags": [
+      "gazebo",
+      "simulation",
+      "modeling",
+      "environment"
+    ]
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Introduction to Digital Twins in Robotics",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/digital-twin-simulation/lesson-4.1-intro-digital-twins"
+  },
+  "next": {
+    "title": "NVIDIA Isaac Sim Overview",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/digital-twin-simulation/lesson-4.3-nvidia-isaac-sim"
+  }
+}

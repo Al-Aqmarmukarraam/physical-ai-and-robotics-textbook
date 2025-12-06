@@ -1,0 +1,54 @@
+{
+  "id": "capstone-pipeline/lesson-6.2-basic-task-automation",
+  "title": "Building a Basic Task Automation Pipeline",
+  "description": "Designing and implementing a simple end-to-end AI-robot workflow.",
+  "source": "@site/docs/capstone-pipeline/lesson-6.2-basic-task-automation.md",
+  "sourceDirName": "capstone-pipeline",
+  "slug": "/capstone-pipeline/lesson-6.2-basic-task-automation",
+  "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/capstone-pipeline/lesson-6.2-basic-task-automation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/Physical-AI-&-Humanoid-Robotics-book/edit/main/docs/docs/capstone-pipeline/lesson-6.2-basic-task-automation.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "task-automation",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/task-automation"
+    },
+    {
+      "inline": true,
+      "label": "pipeline",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/pipeline"
+    },
+    {
+      "inline": true,
+      "label": "workflow",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/workflow"
+    },
+    {
+      "inline": true,
+      "label": "integration",
+      "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/tags/integration"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "Building a Basic Task Automation Pipeline",
+    "description": "Designing and implementing a simple end-to-end AI-robot workflow.",
+    "tags": [
+      "task-automation",
+      "pipeline",
+      "workflow",
+      "integration"
+    ]
+  },
+  "sidebar": "textbookSidebar",
+  "previous": {
+    "title": "Integrating Perception, Language, and Action",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/capstone-pipeline/lesson-6.1-integrating-vla"
+  },
+  "next": {
+    "title": "Testing and Deployment Considerations",
+    "permalink": "/Physical-AI-&-Humanoid-Robotics-book/docs/capstone-pipeline/lesson-6.3-testing-deployment"
+  }
+}
